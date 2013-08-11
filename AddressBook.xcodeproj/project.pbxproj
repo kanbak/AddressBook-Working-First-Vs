@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61AFD4F717B07BD400A2BC68 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AFD4F617B07BD400A2BC68 /* ThirdViewController.m */; };
 		9DE47615179DB47400A92113 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE47614179DB47400A92113 /* UIKit.framework */; };
 		9DE47617179DB47400A92113 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE47616179DB47400A92113 /* Foundation.framework */; };
 		9DE47619179DB47400A92113 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE47618179DB47400A92113 /* CoreGraphics.framework */; };
@@ -18,9 +19,15 @@
 		9DE4762B179DB47400A92113 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE4762A179DB47400A92113 /* Default-568h@2x.png */; };
 		9DE4762E179DB47400A92113 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE4762C179DB47400A92113 /* MainStoryboard.storyboard */; };
 		9DE47631179DB47400A92113 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE47630179DB47400A92113 /* ViewController.m */; };
+		9DE47639179DB4A300A92113 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE47638179DB4A300A92113 /* Person.m */; };
+		9DE4763C179DDBE400A92113 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE4763B179DDBE400A92113 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61AFD4F417B053E000A2BC68 /* EditPersonDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EditPersonDelegate.h; path = ../EditPersonDelegate.h; sourceTree = "<group>"; };
+		61AFD4F517B07BD400A2BC68 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		61AFD4F617B07BD400A2BC68 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		9DCD3BDB17B0801100B9F2A1 /* ThirdVCEditDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdVCEditDelegate.h; sourceTree = "<group>"; };
 		9DE47611179DB47400A92113 /* AddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE47614179DB47400A92113 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9DE47616179DB47400A92113 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +44,10 @@
 		9DE4762D179DB47400A92113 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		9DE4762F179DB47400A92113 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9DE47630179DB47400A92113 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DE47637179DB4A300A92113 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
+		9DE47638179DB4A300A92113 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
+		9DE4763A179DDBE400A92113 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9DE4763B179DDBE400A92113 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +94,17 @@
 		9DE4761A179DB47400A92113 /* AddressBook */ = {
 			isa = PBXGroup;
 			children = (
+				9DE4762C179DB47400A92113 /* MainStoryboard.storyboard */,
 				9DE47623179DB47400A92113 /* AppDelegate.h */,
 				9DE47624179DB47400A92113 /* AppDelegate.m */,
-				9DE4762C179DB47400A92113 /* MainStoryboard.storyboard */,
+				61AFD4F417B053E000A2BC68 /* EditPersonDelegate.h */,
+				9DCD3BDB17B0801100B9F2A1 /* ThirdVCEditDelegate.h */,
+				9DE47637179DB4A300A92113 /* Person.h */,
+				9DE47638179DB4A300A92113 /* Person.m */,
+				61AFD4F517B07BD400A2BC68 /* ThirdViewController.h */,
+				61AFD4F617B07BD400A2BC68 /* ThirdViewController.m */,
+				9DE4763A179DDBE400A92113 /* SecondViewController.h */,
+				9DE4763B179DDBE400A92113 /* SecondViewController.m */,
 				9DE4762F179DB47400A92113 /* ViewController.h */,
 				9DE47630179DB47400A92113 /* ViewController.m */,
 				9DE4761B179DB47400A92113 /* Supporting Files */,
@@ -176,6 +195,9 @@
 				9DE47621179DB47400A92113 /* main.m in Sources */,
 				9DE47625179DB47400A92113 /* AppDelegate.m in Sources */,
 				9DE47631179DB47400A92113 /* ViewController.m in Sources */,
+				9DE47639179DB4A300A92113 /* Person.m in Sources */,
+				9DE4763C179DDBE400A92113 /* SecondViewController.m in Sources */,
+				61AFD4F717B07BD400A2BC68 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +320,7 @@
 				9DE47636179DB47400A92113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  AddressBook
 //
-//  Created by Joel on 7/22/13.
+//  Created by Maria Merino on 8/06/13.
 //  Copyright (c) 2013 Mobile Makers. All rights reserved.
 //
 
